@@ -3,7 +3,7 @@
 wandb_project_name: "VCAE"
 
 # Data settings
-data_path: 'path/to/data'
+data_path: 'data/BFO_a-0090_dark_ref_corrected.dm3'
 energy_range: [420, 820] 
 batch_size: 1
 num_workers: 4

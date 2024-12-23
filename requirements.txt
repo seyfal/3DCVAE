@@ -1,0 +1,27 @@
+# Deep Learning Framework
+torch>=2.0.0 # CUDA version is preferred for GPU acceleration
+torchinfo>=1.8.0
+
+# Math
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data Processing and Analysis
+hyperspy>=2.0.0
+scikit-image>=0.21.0
+pyyaml>=6.0.1
+
+# Visualization
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Experiment Tracking
+wandb>=0.15.0
+
+# Optional but recommended for Jupyter notebook usage
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Testing and Development
+pytest>=7.0.0
+pylint>=2.17.0

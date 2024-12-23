@@ -2,12 +2,12 @@
 
 A Three-Dimensional Convolutional Variational Autoencoder (3D-CVAE) for automated anomaly detection in Electron Energy Loss Spectroscopy Spectrum Imaging (EELS-SI) data.
 
+> **Note**: This repository is currently being populated with features from the original project. New sections and functionalities will be added as they are ported and documented. Star or watch the repository to stay updated with new additions.
+
 ![CVAE Architecture](docs/assets/CVAE.drawio.png)
 *3D-CVAE architecture*
 
 ## Table of Contents
-
-The repository is still being populated with the features from the original project. New sections will be created as the features are ported to this repository. 
 
 - [Introduction](#introduction)
     - [What is EELS-SI?](#what-is-eels-si)

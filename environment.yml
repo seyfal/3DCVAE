@@ -1,0 +1,22 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - conda
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda-anon-usage
+  - ipykernel
+  - scikit-learn
+  - scikit-image
+  - numpy
+  - typing_extensions
+  - hdf5
+  - plotly
+  - nbformat
+prefix: /home/ssulta24/miniconda

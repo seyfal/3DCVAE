@@ -1,3 +1,7 @@
+# Temporary ignores for initial commit
+**/*.png
+**/*.json
+
 # Python
 __pycache__/
 *.py[cod]
@@ -68,6 +72,7 @@ data/
 *.pkl
 *.npz
 *.npy
+*.json
 models/
 checkpoints/
 

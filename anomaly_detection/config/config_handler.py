@@ -48,7 +48,7 @@ def validate_config(config: Dict[str, Any]) -> None:
     required_fields = [
         'data_path', 'energy_range', 'batch_size', 'num_workers', 'device',
         'latent_dim', 'learning_rate', 'lr_patience', 'lr_factor', 'kl_weight',
-        'clip_value', 'epochs', 'save_interval', 'experiment_name'
+        'clip_value', 'epochs'
     ]
 
     for field in required_fields:

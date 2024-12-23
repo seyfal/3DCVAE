@@ -1,5 +1,4 @@
 # anomaly_detection/config/config.yaml 
-
 wandb_project_name: "VCAE"
 
 # Data settings
@@ -11,37 +10,19 @@ num_workers: 4
 # Model settings
 device: 'cuda'  # or 'cpu'
 latent_dim: 48
-hidden_dims: [64, 128, 256]
 
 # Training settings
 learning_rate: 1e-4
 lr_patience: 10
 lr_factor: 0.5
 kl_weight: 1
-sam_weight: 0
-auc_weight: 0
 clip_value: 3.53
 epochs: 300
-save_interval: 50
-
-# Experiment settings
-experiment_name: 'CVAE3D_Training'
 
 # Preprocessing settings
 image_size: 24
 sigma: 0.5
 xy_window: 3
-anomaly_indices: [18]
-excluded_sample: 18
-sliding_window_stride: 24
+anomaly_indices: [18] # if you want to exclude a certain shard index from the training set
+sliding_window_stride: 24 
 scaling_method: 'robust_minmax'
-
-# Visualization settings
-visualization_pixel_x: 12
-visualization_pixel_y: 12
-num_random_spectra: 5
-visualization_interval: 10
-
-# Anomaly detection settings
-anomaly_threshold_percentile: 1
-kde_bandwidth: 1.0
